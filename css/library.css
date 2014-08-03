@@ -236,7 +236,8 @@ input.ui-input-text, textarea.ui-input-text {
     top: 20px;
 }
 /*
- * FontAwesome adjustments for jQM
+ * FontAwesome adjustments for jQM 
+ * imported from apigee tutorial
  */
  .ui-icon-glass:after {
     content:"\f000";
