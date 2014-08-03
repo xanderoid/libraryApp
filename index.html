@@ -30,7 +30,7 @@
 
 <body>
     <section id="page-main" data-role="page">
-        <header id="header-mylist" data-role="header" data-position="fixed" data-theme="a">
+        <header id="header-mylist" data-role="header"  data-theme="a">
             <a id="btn-new" data-role="button" data-icon="plus" data-iconpos="right" data-inline="true" href="#page-add" class="ui-btn-right" data-theme="c">New</a>
             <a id="btn-logout" data-role="button" data-icon="arrow-l" data-iconpos="left" data-inline="true" href="#page-login" class="ui-btn-left" data-theme="c">Logout</a>
             <h1>My Library</h1>
@@ -65,8 +65,8 @@
                   </a>
                     </li>
                     <li>
-                        <a id="btn-load-inspiration" href="#page-main" data-transition="fade" data-theme="c" data-icon="list">
-                      Inspiration
+                        <a id="btn-load-wishList" href="#page-main" data-transition="fade" data-theme="c" data-icon="list">
+                      Wish List
                   </a>
                     </li>
                 </ul>
@@ -82,11 +82,11 @@
         <article data-role="content">
             <form action="" id="form-add-item" class="" style="">
                 <label for="form-title">What's in your Library?</label>
-                <input id="form-title" type="text" placeholder="I am going to..." />
-                <label for="form-place">Where in the world?</label>
-                <input id="form-place" type="text" placeholder="Somewhere in the world..." />
-                <label for="form-desc">More Info:</label>
-                <textarea name="" id="form-desc" placeholder="Add any additional information here..."></textarea>
+                <input id="form-title" type="text" placeholder="Type Book Title Here..." />
+                <label for="form-auth">Author?</label>
+                <input id="form-auth" type="text" placeholder="Type Author Name Here..." />
+                <label for="form-isbn">ISBN:</label>
+                <textarea name="" id="form-isbn" placeholder="Type ISBN Here..."></textarea>
                 <input id="form-uuid" type="hidden" />
                 <a id="btn-cancel" data-role="button" data-icon="delete" href="#page-main">Cancel</a>
                 <a id="btn-submit" data-role="button" data-icon="plus">Submit</a>
