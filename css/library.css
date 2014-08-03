@@ -24,18 +24,18 @@ article {
 }
 header, footer {
     background-color: #FFF;
-    border-bottom: 1px solid rgb(255, 67, 0);
-    color: rgb(255, 67, 0);
+    border-bottom: 1px solid rgb(152, 192, 0);
+    color: rgb(152, 192, 0);
 }
 footer {
-    border-top: 1px solid rgb(255, 67, 0);
+    border-top: 1px solid rgb(152, 192, 0);
     border-bottom: none;
 }
 .ui-li, .ui-li.ui-field-contain {
     border-bottom: 1px solid #eee;
 }
 .ui-block-b {
-    border-left: 1px solid rgb(255, 67, 0);
+    border-left: 1px solid rgb(152, 192, 0);
 }
 .ui-footer .ui-navbar li .ui-btn {
     padding-top: 4px;
@@ -55,7 +55,7 @@ footer {
     content:"";
     font-family: FontAwesome;
     font-size: 24px;
-    color: rgb(255, 67, 0);
+    color: rgb(152, 192, 0);
     position: absolute;
     left: 10px;
     top: 50%;
@@ -70,7 +70,7 @@ footer {
     content:"\f116";
     font-family: FontAwesome;
     font-size: 24px;
-    color: rgb(255, 67, 0);
+    color: rgb(152, 192, 0);
     position: absolute;
     right: 0;
     top: 50%;
@@ -84,7 +84,7 @@ footer {
     border-spacing: 2px;
 }
 #btn-cancel, #btn-submit, #btn-clear, #btn-newuser, #btn-did-it, #btn-forget-it, #btn-login-cancel, #btn-login-submit, #btn-login-newuser {
-    border: 1px solid rgb(255, 67, 0);
+    border: 1px solid rgb(152, 192, 0);
     margin: 2px auto;
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -92,9 +92,11 @@ footer {
 }
 #btn-cancel, #btn-did-it {
     margin: 30px 0 0;
+    color: rgb(152, 192, 0);
 }
 #btn-submit, #btn-forget-it, #btn-newuser {
     margin: 30px -2px 0;
+    color: rgb(152, 192, 0);
 }
 #btn-login-newuser {
     margin-top: 48px;
@@ -106,7 +108,7 @@ footer {
     display: none;
 }
 [data-role='content'] .ui-btn-active, [data-role='footer'] .ui-btn-active {
-    background-color: rgb(255, 67, 0);
+    background-color: rgb(152, 192, 0);
     color: #fff;
 }
 .ui-btn-active .ui-icon {
@@ -120,7 +122,7 @@ footer {
     -webkit-overflow-scrolling: touch;
 }
 .ui-icon {
-    color: rgb(255, 67, 0);
+    color: rgb(152, 192, 0);
     font-size: 24px;
 }
 .ui-btn-icon-top .ui-btn-inner .ui-icon, .ui-btn-icon-bottom .ui-btn-inner .ui-icon {
